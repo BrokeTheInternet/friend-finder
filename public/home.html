@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .panel{
+            background-color: #f9f9f9;
+        }
+        p {
+            font-size: 15px;
+        }
+        .jumbotron{
+            color: green;
+        }
+        body{
+            background-color: rgb(4, 180, 4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><span class="glyphicon glyphicon-user"></span> Friend Finder</h1>
+            <h3>Answer a few basic questions.
+            Then find the friend with the greatest compatibility!</h3>
+            <hr>
+            <a href="/survey">
+                <button type="button" class="btn btn-success btn-lg" id="addReservation"><span class="glyphicon glyphicon-credit-card"></span>Go To Survey</button>
+            </a>
+        </div>
+        <div class="panel panel-default">
+            <p>Control Panel</p>
+            <p>
+            <a href="/api">API Friends list</a> |
+            <a href="https://github.com/BrokeTheInternet/friend-finder">GitHub Repo</a></p>
+        </div>
+</body>
+
+</html>
