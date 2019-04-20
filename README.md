@@ -13,10 +13,12 @@ https://whispering-taiga-95736.herokuapp.com/
 https://www.youtube.com/watch?v=XhSnLWastbo&feature=youtu.be
 
 <h2>Built With: </h2>
-* Node.JS
-* Express
-* JavaScript
-* JQuery
-* Bootstrap
-* HTML
-* CSS
+<ul>
+  <li>Node.JS</li>
+  <li>Express</li>
+  <li>JavaScript</li>
+  <li>JQuery</li>
+  <li>Bootstrap</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
